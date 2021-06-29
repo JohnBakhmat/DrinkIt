@@ -116,7 +116,7 @@ export default {
 .title {
 	font-family: 'Mont';
 	font-style: normal;
-	font-size: 6vw;
+	font-size: calc(24px + 1vw);
 	font-weight: 600;
 	color: rgba(0, 0, 0, 0.55);
 	-webkit-text-stroke-width: 2px;
@@ -125,12 +125,12 @@ export default {
 .components-title {
 	font-family: 'Mont';
 	font-style: normal;
-	font-size: 4.25758382118148vw;
+	font-size: calc(18px + 1vw);
 }
 .components-list {
-	font-family: 'Mont-Thin';
+	font-family: 'Mont';
 	font-style: normal;
-	font-size: 3.1931878658861095vw;
+	font-size: calc(11px + 1vw);
 	font-weight: 600;
 }
 </style>
