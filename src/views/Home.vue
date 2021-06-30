@@ -19,7 +19,6 @@
 			row-auto
 			col-span-1
 			bg-transparent
-			mt-8
 			gap-9
 			w-screen
 			p-3
