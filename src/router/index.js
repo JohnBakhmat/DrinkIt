@@ -8,11 +8,6 @@ const routes = [
 		component: Home,
 	},
 	{
-		path: '/index.html',
-		name: 'Home',
-		component: Home,
-	},
-	{
 		path: '/about',
 		name: 'About',
 		// route level code-splitting
@@ -21,6 +16,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "about" */ '../views/About.vue'),
 	},
+	{ path: '/:pathMatch(.*)', component: Home },
 ]
 
 const router = createRouter({
