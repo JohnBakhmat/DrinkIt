@@ -32,7 +32,7 @@ export default {
 <style>
 .measure {
 	font-style: normal;
-	font-size: 2.873869079297499vw;
+	font-size: 12px;
 	color: rgba(0, 0, 0, 0.55);
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: rgba(159, 2, 255, 0.22);
