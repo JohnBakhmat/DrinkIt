@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+@layer base {
+	@font-face {
+		font-family: 'Mont';
+		font-weight: 400;
+		src: url(./assets/fonts/Mont-Thin.eot) format('eot'),
+			url(./assets/fonts/Mont-Thin.ttf) format('ttf'),
+			url(./assets/fonts/Mont-Thin.woff) format('woff'),
+			url(./assets/fonts/Mont-Thin.woff2) format('woff2');
+	}
+	@font-face {
+		font-family: 'Mont';
+		font-weight: 500;
+		src: url(./assets/fonts/Mont-Regular.eot) format('eot'),
+			url(./assets/fonts/Mont-Regular.ttf) format('ttf'),
+			url(./assets/fonts/Mont-Regular.woff) format('woff'),
+			url(./assets/fonts/Mont-Regular.woff2) format('woff2');
+	}
+}

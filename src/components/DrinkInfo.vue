@@ -99,20 +99,6 @@ export default {
 </script>
 
 <style scoped>
-@font-face {
-	font-family: 'Mont-Thin';
-	src: url(../assets/fonts/Mont-Thin.eot) format('eot'),
-		url(../assets/fonts/Mont-Thin.ttf) format('ttf'),
-		url(../assets/fonts/Mont-Thin.woff) format('woff'),
-		url(../assets/fonts/Mont-Thin.woff2) format('woff2');
-}
-@font-face {
-	font-family: 'Mont';
-	src: url(../assets/fonts/Mont-Regular.eot) format('eot'),
-		url(../assets/fonts/Mont-Regular.ttf) format('ttf'),
-		url(../assets/fonts/Mont-Regular.woff) format('woff'),
-		url(../assets/fonts/Mont-Regular.woff2) format('woff2');
-}
 .title {
 	font-family: 'Mont';
 	font-style: normal;
