@@ -1,10 +1,12 @@
 <template>
 	<div class="px-2 h-full max-h-full">
-		<p class="title">{{ drink.strDrink }}</p>
+		<p class="title text-xl lg:text-3xl">{{ drink.strDrink }}</p>
 		<div>
-			<p class="components-title">Components</p>
+			<p class="components-title text-lg lg:text-xl font-bold">
+				Components
+			</p>
 			<div
-				class="components-list"
+				class="components-list text-xs lg:text-base"
 				v-for="(ingredient, index) in ingredients"
 				:key="index"
 			>
@@ -102,7 +104,7 @@ export default {
 .title {
 	font-family: 'Mont';
 	font-style: normal;
-	font-size: 20px;
+
 	font-weight: 600;
 	color: rgba(0, 0, 0, 0.55);
 	-webkit-text-stroke-width: 2px;
@@ -111,12 +113,10 @@ export default {
 .components-title {
 	font-family: 'Mont';
 	font-style: normal;
-	font-size: 18px;
 }
 .components-list {
 	font-family: 'Mont';
 	font-style: normal;
-	font-size: 12px;
 	font-weight: 600;
 }
 </style>

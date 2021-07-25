@@ -21,10 +21,9 @@
 			row-auto
 			grid-cols-1
 			md:grid-cols-2
-			lg:grid-cols-3
+			lg:grid-cols-3 lg:gap-7
 			bg-transparent
 			gap-5
-			lg:gap-7
 			p-3
 		"
 	>
